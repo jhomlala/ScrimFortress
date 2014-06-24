@@ -1,0 +1,49 @@
+#include <iostream>
+
+using namespace std;
+
+class B
+{
+
+};
+
+class A:public B
+{
+private:
+    int *x;
+public:
+    A() { x=new int; *x = 2;}
+    A(A &oryginal) {x=new int; *x=*(oryginal.x)+1;}
+     A & operator=(A &podana)
+    {
+
+        x = new int;
+       *x = *(podana.x);
+
+       return *this;
+    }
+
+void wyswietl()
+{
+    cout << *x << endl;
+}
+    virtual ~A() {delete x;}
+};
+
+
+
+int main()
+{
+    A pierwsza;
+    A druga(pierwsza);
+    pierwsza.wyswietl();
+    druga.wyswietl();
+    A trzecia;
+    A czwarta;
+
+    trzecia = czwarta = druga ;
+    trzecia.wyswietl();
+    czwarta.wyswietl();
+
+    return 0;
+}

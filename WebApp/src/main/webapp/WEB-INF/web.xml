@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+      <servlet>  
+        <servlet-name>Receiver</servlet-name>  
+        <servlet-class>com.scrims.main.Receiver</servlet-class>  
+   	 </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>Receiver</servlet-name>  
+        <url-pattern>/Receiver</url-pattern>  
+    </servlet-mapping>  
+  
+ 
+      <servlet>  
+        <servlet-name>ReceiverLogin</servlet-name>  
+        <servlet-class>com.scrims.main.ReceiverLogin</servlet-class>  
+   	 </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>ReceiverLogin</servlet-name>  
+        <url-pattern>/ReceiverLogin</url-pattern>  
+    </servlet-mapping>  
+  
+  
+      <servlet>  
+        <servlet-name>ReceiverScrim</servlet-name>  
+        <servlet-class>com.scrims.main.ReceiverScrim</servlet-class>  
+   	 </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>ReceiverScrim</servlet-name>  
+        <url-pattern>/ReceiverScrim</url-pattern>  
+    </servlet-mapping>  
+    
+    
+    <servlet>  
+        <servlet-name>ReceiverTeamEdit</servlet-name>  
+        <servlet-class>com.scrims.main.ReceiverTeamEdit</servlet-class>  
+   	 </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>ReceiverTeamEdit</servlet-name>  
+        <url-pattern>/ReceiverTeamEdit</url-pattern>  
+    </servlet-mapping>  
+     
+    <servlet>  
+        <servlet-name>Mailbox</servlet-name>  
+        <servlet-class>com.scrims.main.Mailbox</servlet-class>  
+   	 </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>Mailbox</servlet-name>  
+        <url-pattern>/Mailbox</url-pattern>  
+    </servlet-mapping>   
+    
+    <servlet>  
+        <servlet-name>ReceiverMail</servlet-name>  
+        <servlet-class>com.scrims.main.ReceiverMail</servlet-class>  
+   	 </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>ReceiverMail</servlet-name>  
+        <url-pattern>/ReceiverMail</url-pattern>  
+    </servlet-mapping>   
+  
+  <welcome-file-list>
+    <welcome-file>Home.jsp</welcome-file>
+  </welcome-file-list>
+</web-app> 

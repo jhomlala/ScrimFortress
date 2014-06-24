@@ -1,0 +1,120 @@
+body { background-attachment: fixed;
+ background: url(back.png) no-repeat center center fixed; 
+   padding-top: 50px;
+  padding-bottom: 20px;
+  background-size:100% 100%;
+  }
+ 
+ 
+
+.navbar
+{
+	border: 1px solid #888;
+    border-radius:3px;
+    opacity:0.93;
+-webkit-box-shadow: 7px 7px 19px 0px rgba(48, 50, 50, 1);
+-moz-box-shadow:    7px 7px 19px 0px rgba(48, 50, 50, 1);
+box-shadow:         7px 7px 19px 0px rgba(48, 50, 50, 1);
+}
+
+
+.alert
+{
+	border: 1px solid #888;
+    border-radius:3px;
+    opacity:0.93;
+-webkit-box-shadow: 7px 7px 19px 0px rgba(48, 50, 50, 1);
+-moz-box-shadow:    7px 7px 19px 0px rgba(48, 50, 50, 1);
+box-shadow:         7px 7px 19px 0px rgba(48, 50, 50, 1);
+}
+
+ .tooltipsy
+{
+   padding: 10px;
+    color: #fff;
+    background-color: #222;
+    -moz-box-shadow: inset 0 0 10px #000;
+    -webkit-box-shadow: inset 0 0 10px #000;
+    box-shadow: inset 0 0 10px #000;
+    text-shadow: 0 0 3px #000;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
+ 
+.well{
+    border: 1px solid #888;
+    border-radius:3px;
+    opacity:0.93;
+-webkit-box-shadow: 7px 7px 19px 0px rgba(48, 50, 50, 1);
+-moz-box-shadow:    7px 7px 19px 0px rgba(48, 50, 50, 1);
+box-shadow:         7px 7px 19px 0px rgba(48, 50, 50, 1);
+}
+
+.navbar{
+    border: 1px solid #888;
+    border-radius:3px;
+}
+
+
+.container {
+	
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.page-header {
+color: rgb(255,255,255); 
+	
+}
+
+div.ui-datepicker{
+ font-size:10px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+footer {
+	background-color: rgb(247,247,247); 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    border: 1px solid #888;
+    border-radius:3px;
+    opacity:0.93;
+-webkit-box-shadow: 7px 7px 19px 0px rgba(48, 50, 50, 1);
+-moz-box-shadow:    7px 7px 19px 0px rgba(48, 50, 50, 1);
+box-shadow:         7px 7px 19px 0px rgba(48, 50, 50, 1);
+}
